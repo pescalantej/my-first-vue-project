@@ -2,8 +2,11 @@
 import QuizContent from '@/components/Quiz/QuizContent.vue'
 import QuizFooter from '@/components/Quiz/QuizFooter.vue'
 import QuizHeader from '@/components/Quiz/QuizHeader.vue'
+import { provide } from 'vue'
 
-defineProps({ quiz: Object })
+let props = defineProps({ quiz: Object })
+
+provide('quiz', props.quiz)
 </script>
 
 <template>

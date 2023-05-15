@@ -1,3 +1,9 @@
+<script setup>
+import { inject } from 'vue'
+
+let quiz = inject('quiz')
+</script>
+
 <template>
   <div>
     <h5>{{ quiz.name }}</h5>
@@ -8,7 +14,3 @@
     </ul>
   </div>
 </template>
-
-<script setup>
-defineProps({ quiz: Object })
-</script>
