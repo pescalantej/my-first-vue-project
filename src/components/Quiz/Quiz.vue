@@ -15,6 +15,6 @@ provide('quiz', props.quiz)
 
     <QuizContent />
 
-    <QuizFooter :quiz="quiz" />
+    <QuizFooter />
   </main>
 </template>
