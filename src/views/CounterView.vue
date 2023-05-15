@@ -4,6 +4,7 @@ import { counter } from '@/stores/counterStore'
 
 <template>
   <div>
-    <p>The current count is {{ counter.count }}.</p>
+    <h1>{{ counter.count }}</h1>
+    <button @click="counter.increment()">Increment</button>
   </div>
 </template>
