@@ -1,6 +1,11 @@
+<script setup>
+import { state } from '@/stores/quizStore.js'
+</script>
+
 <template>
   <header>
-    <h4>Quiz Header</h4>
+    <h1>{{ state.name }}</h1>
+
     <p>Read carefully the questions</p>
   </header>
 </template>
