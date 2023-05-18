@@ -10,27 +10,21 @@
     },
     {
       "name": "Sarah Doe",
-      "email": "Sarah@doe.com",
+      "email": "sarah@doe.com",
       "status": "active",
       "id": 2
     },
     {
       "name": "Steven Doe",
-      "email": "Steven@doe.com",
+      "email": "steven@doe.com",
       "status": "active",
       "id": 3
     },
     {
       "name": "Jen Doe",
-      "email": "Jen@doe.com",
+      "email": "jen@doe.com",
       "status": "active",
       "id": 4
-    },
-    {
-      "name": "Joe Doe",
-      "email": "Joe@doe.com",
-      "status": "active",
-      "id": 5
     }
   ]
 }
