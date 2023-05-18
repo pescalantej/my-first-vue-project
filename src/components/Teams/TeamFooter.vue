@@ -1,9 +1,7 @@
 <script setup>
-import { defineProps } from 'vue'
+import { useTeamStore } from '@/stores/TeamStore'
 
-defineProps({
-  team: Object
-})
+let team = useTeamStore()
 </script>
 
 <template>

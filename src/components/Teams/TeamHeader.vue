@@ -1,9 +1,7 @@
 <script setup>
-import { defineProps } from 'vue'
+import { useTeamStore } from '@/stores/TeamStore'
 
-defineProps({
-  team: Object
-})
+let team = useTeamStore()
 </script>
 
 <template>
@@ -11,9 +9,9 @@ defineProps({
     <div>
       <button
         class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded disabled:bg-gray-400"
-        :disabled="team.spots === team.members.length"
+        :disabled="!team.spotsRemaining"
       >
-        Add Member ({{ team.spots - team.members.length }} Spots Left)
+        Add Member ({{ team.spotsRemaining }} Spots Left)
       </button>
     </div>
     <div>
