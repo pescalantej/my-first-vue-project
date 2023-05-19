@@ -3,7 +3,7 @@ import TeamView from '@/views/TeamView.vue'
 </script>
 
 <template>
-  <div class="grid m-2 p-2">
+  <main class="grid m-2 p-2">
     <TeamView />
-  </div>
+  </main>
 </template>
